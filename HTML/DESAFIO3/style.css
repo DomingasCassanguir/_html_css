@@ -1,0 +1,146 @@
+* {
+    preenchimento: 0;
+    margem: 0;
+    família de fontes: Geórgia;
+  }
+  
+  Ul {
+    estilo de lista: nenhum;
+  }
+  
+  um {
+    texto-decoração: nenhuma;
+    cor: #444;
+    transição: 0,4s;
+  }
+  
+  um:passar o mouse {
+    cor: #37a1f7;
+  }
+  
+  /* Barra de navegação */
+  #barra de navegação {
+    preenchimento: 1.5 rem 2.5 rem;
+    borda inferior: 2px sólido #ddd;
+  }
+  
+  #navbar-inner {
+    display: flex;
+    justificar-conteúdo: espaço-entre;
+    alinhar-itens: centro;
+    largura máxima: 1200px;
+    margem: 0 auto;
+  }
+  
+  #links de navegação {
+    display: flex;
+    lacuna: 1rem;
+  }
+  
+  /* conteúdo principal */
+  . recipiente {
+    display: flex;
+    preenchimento: 2 rem  2.5rem;
+    lacuna: 3rem;
+    largura máxima: 1200px;
+    margem: 0 auto;
+  }
+  
+  #postes-recipiente {
+    flex: 3 1 0;
+  }
+  
+  . Postar {
+    margem-fundo: 2,5rem;
+  }
+  
+  . post img {
+    largura: 100%;
+    margem-fundo: 1rem;
+  }
+  
+  . título,
+  . descrição,
+  . autor {
+    margem-fundo: 1rem;
+  }
+  
+  . título {
+    tamanho da fonte: 2rem;
+  }
+  
+  . autor {
+    cor: #333;
+    peso da fonte: negrito;
+  }
+  
+  /* barra lateral */
+  #sidebar {
+    flex: 1 1 0;
+  }
+  
+  #search-bar,
+  #categories,
+  #tags {
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+  }
+  
+  #search-bar h4,
+  #categories h4,
+  #tags h4 {
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+  }
+  
+  #search-bar form {
+    display: flex;
+  }
+  
+  #search-bar input {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+  }
+  
+  #search-bar input[type="submit"] {
+    cursor: pointer;
+    background-color: #37a1f7;
+    color: #fff;
+    border: none;
+  }
+  
+  #categories li {
+    margin-bottom: 1rem;
+  }
+  
+  #tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  #tags-container a {
+    cor de fundo: #ddd;
+    preenchimento: 0,5 rem 0,7 rem;
+    raio de fronteira: 0,3rem;
+  }
+  
+  /* Rodapé */
+  #rodapé {
+    borda superior: 2px sólido #ddd;
+    preenchimento: 3rem;
+    alinhamento de texto: centro;
+  }
+  
+  #rodapé h2,
+  #rodapé p {
+    margem-fundo: 1rem;
+  }
+  
+  /* Responsivo */
+  @media (largura máxima: 450px) {
+   . recipiente {
+      flex-wrap: wrap;
+    }
+  }
