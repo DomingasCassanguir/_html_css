@@ -1,0 +1,84 @@
+ul{
+    border: 1px solid blueviolet ;
+    padding: 10px;
+}
+li{
+    color: blueviolet;
+}
+.paragraph{
+    background-color: black;
+    color: aqua;
+}
+#exclusive-title{
+    background-color: purple;
+    color: yellow;
+}
+/*ordem das regras*/
+h2{
+    border-bottom: 2px solid red;
+}
+.titulo{
+border-bottom: 3px solid blue;
+}
+#algum-titulo{
+    border-bottom: 4px solid green;
+}
+/*nomes de cores*/
+.color-name{
+color: crimson;
+}
+/*hex*/
+.hex{
+    color: #55a398;
+}
+.hex-2{
+    color: #00eaff;
+}
+/*aprofundamento sobre o hex*/
+.simple-hex{
+    color: #aa55ff;
+}
+.simple-hex-2{
+    color: #22cc84;
+}
+/*rgb*/
+.rgb{
+    color: rgb(255,4,100);
+}
+.rgb-2{
+    color: rgb(255,80,56);
+}
+/*rgba*/
+.rgba{
+    color: rgba(100,59,45,0.3);
+}
+/*hsl*/
+.hsl{
+    color: hsl(255,20%,50%);
+}
+.hsl-2{
+    color: hsl(245,55%,70%);
+}
+/*background*/
+.bg{
+    background-color: #000;
+    color: yellow;
+}
+.bg-2{
+background-color: rgb(200,20,190);
+color: #00efe0;
+}
+.bg-opacity{
+    background-color:green ;
+    opacity: 0.2;
+}
+.bg-opacity-2{
+    background-color:#999 ;
+   color: #000;
+   opacity: 0.8;
+}
+/*rgba com opacidade*/
+.rgba-opacity{
+    background-color: rgba(90,120,20,0.2);
+    color: #000;
+}

@@ -1,0 +1,19 @@
+body{
+    padding-bottom: 500px;
+}
+h4{
+    background-color: antiquewhite;
+    color: darkslateblue;
+}
+p{
+    color: coral;
+}
+ul{
+    border: 1px solid crimson;
+}
+li{
+    color: lightseagreen;
+}
+ol{
+    border: 1px solid crimson;
+}
