@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Este é um título impotante        </title>
+    </head>
+    
+    <body style="padding-bottom: 500px;">
+        <h1>Este título é importantissímo</h1>
+        <h3>Novo título</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur <br>adipisicing elit. Assumenda itaque quam sunt porro vitae minus sapiente esse hic quas voluptatem aperiam eius, dolore voluptates perferendis earum voluptas ex, non laboriosam.</p>
+        <p>Descrição do nosso serviços</p>
+        <hr>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste rerum praesentium neque, aspernatur veniam repellat, deserunt similique nostrum dolorum id quae culpa, atque molestias fugit excepturi eum reprehenderit dolores eius.</p>
+        <!--comentário1-->
+        <h1>Este título é importantissímo</h1>
+        
+       
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste rerum praesentium neque, aspernatur veniam repellat, deserunt similique nostrum dolorum id quae culpa, atque molestias fugit excepturi eum reprehenderit dolores eius.</p>
+       <!--comentario 2-->
+       <h1>Este título é importantissímo</h1>
+        <h3>Novo título</h3>
+        <!--comentário extra-->
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste rerum praesentium neque, aspernatur veniam repellat, deserunt similique nostrum dolorum id quae culpa, atque molestias fugit excepturi eum reprehenderit dolores eius.</p>
+       <!--Aula de atributos-->
+       <a href="https://www.google.com">Google</a>
+       <br>
+       <!-- abrir um link em uma nova aba-->
+       <a href="https://www.google.com" target="_blank">Google em nova aba</a>
+     <br>
+       <!--Atribuir imagem-->
+     <img src="img/a0ca97_bc92fa2de231418fa6559a7dd0ac0ec2_mv2_d_3556_4199_s_4_2.jpg"/>
+     <!--Atributo alt-->
+     <img src="img/7315483433ee8717baa0fdc7dbbcf0d6.jpg" alt="IMAGEM MOTIVACIONAL:A vida tem a cor que você pinta"/>
+     <!--Listas não ordenadas-->
+     <ul>
+        <li>Carros</li>
+        <li>Navios</li>
+        <li>Submarinos</li>
+        <li>Aviões</li>
+     </ul>
+     <!--Listas ordenadas-->
+     <ol>
+        <li>Lavar o carro</li>
+        <li>Ir ao mercado</li>
+        <li>Estudar prrogramação</li>
+        <li>Jantar</li>
+
+     </ol>
+     <!--Tabelas/Tables-->
+     <table>
+        <tr>
+            <th>ID:</th>
+            <th>Nome:</th>
+            <th>Profissão:</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Alexadre</td>
+            <td>Programador</td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Amanda</td>
+            <td>engenheira de cibernetica e neuro-enginheira</td>
+        </tr>
+     </table>
+     <!--div-->
+     <div>
+        <h2>Título desecção</h2>
+        <p>Descrição das seção, um texto relacionado a este assunto</p>
+        <a href="#">Saber mais</a>
+     </div>
+     <div>
+        <h2>Sobre Matheus</h2>
+        <p>Nome completo: Matheus Battisti</p>
+     </div>
+
+    </body>
+</html>
