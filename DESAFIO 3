@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 3</title>
+    <link rel="stylesheet" href="titlles2.css">
+</head>
+<body>
+    <div id="box-model">
+        <h2 class="box-model">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sit obcaecati deleniti eligendi labore voluptatum consectetur. Optio iste quod perferendis dicta, harum consectetur! Aliquam fuga odio ratione quia nemo rem!</h2>
+
+    </div>
+</body>
+</html>
+.box-model{
+    color: #fff;
+    background-color: aqua;
+    border: none;
+
+}
+#box-model{
+
+background-color: rgb(97, 78, 206);
+padding: 20px 30px;
+margin: 10px;
+border-radius: 20px ;
+border: 5px solid rgb(214, 59, 137);
+margin-top: 10px ;
+margin-left: 20px;
+color: pink;
+outline: 5px solid rgb(214,59,137);
+
+}
