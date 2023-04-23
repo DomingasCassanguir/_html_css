@@ -1,97 +1,81 @@
-<! DOCTYPE html>
-<html lang="pt">
-  <cabeça>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML semântico</title>
-  </cabeça>
-  <corpo>
-    <!-- 3 - cabeçalho -->
-    <cabeçalho>
-      <h2>Nosso site</h2>
-      <!-- <seção>
-        <a href="#">Home</a>
-        <a href="#">Produtos</a>
-        <a href="#">Contato</a>
- </seção> -->
-      <!-- 5 - navegação -->
-      <Nav>
-        <a href="#">Home</a >
-        <a href="#">Produtos</a >
-        <a href="#">Contato</a >
-      </Nav>
-    </cabeçalho>
-    <!-- 8 - principal -->
-    <principal>
-      <!-- 1 - seção -->
-      <secção>
-        <h2>Veja os nossos produtos:</h2>
-        <p>Produto 1</p>
-        <p>Produto 2</p>
-        <p>Produto 3</p>
-      </secção>
-      <secção>
-        <h2>Conheça os nossos diferenciais:</h2>
-        <Ul>
-          <li>Diferencial 1</li>
-          <li>Diferencial 2</li>
-          <li>Diferencial 3</li>
-        </Ul>
-      </secção>
-      <!-- 2 - artigo -->
-      <secção>
-        <h2>Últimos posts do blog:</h2>
-        <artigo>
-          <h3>Post sobre algo</h3>
-          <p>Descrição curta do post</p>
-          <a href="#">Ler o conteúdo</a >
-        </artigo>
-        <artigo>
-          <h3>Correio 2</h3>
-          <p>Descrição curta do post</p>
-          <a href="#">Ler o conteúdo</a >
-        </artigo>
-        <artigo>
-          <h3>Post 3</h3>
-          <p>Descrição curta do post</p>
-          <a href="#">Ler o conteúdo</a >
-        </artigo>
-      </secção>
-    </principal>
-    <!-- 6 - à parte -->
-    <à parte>
-      <h4>Categorias:</h4>
-      <Ul>
-        <li>
-          <a href="#">JavaScript</a >
-        </li>
-        <li>
-          <a href="#">Reagir</a >
-        </li>
-        <li>
-          <a href="#">Nó</a >
-        </li>
-      </Ul>
-    </à parte>
-    <!-- 9 - marca -->
-    <p>
- Temos neste text um  <mark>conteúdo importante</mark>, que precisa estar 
-      marcado.
-    </p>
-    <!-- 7 - figura e figcaption -->
-    <figura>
-      <img src="img/lambo.jpg" alt="Lamborghini" />
-      <figcaption>Uma Lamborghini amarela</figcaption>
-    </figura>
-    <!-- 4 - rodapé -->
-    <rodapé>
-      <Div>
-        <h2>Entre em contato:</h2>
-        <p>Telefone: (xx)9999999</p>
-        <p>E-mail: matheus@teste.com</p>
-      </Div>
-      <p>Criado por Hora de Codar</p>
-    </rodapé>
-  </corpo>
-</.html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Tributo: Drake</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <!--Cabeçalho-->
+    <div class="header">
+        <h1 class="main-title">Drake</h1>
+        <p class="main-paragraph">Um artísta de Rap promocional</p>
+    </div>
+    <div class="featured-image">
+        <figure>
+            <img src="img/Drake-2.jpg" alt="Drake">
+            <figcaption>Artísta em destaque</figcaption>
+        </figure>
+    </div>
+    <div>
+        <!--Bigrafia-->
+        <div class="biography-container">
+            <h2>Sobre os anos iniciais do artísta</h2>
+     <p>
+    Em 2008 Drake apareceu pela primeira vez em um filme da Disney,
+    <span class="bold">Drake</span> começou gravando faixas até entrar para Young money atualmente de Lil Wayne A.K.A Lil Weezyana eles eram colegas
+    na produtora junto com grandes artístas do mercado atual.
+     </p>
+     <p>
+    Em 2012 Drake estourou no mercado com grandes sucessos e participações incriveis,
+    com músicas como <span class="bold">"you was my name" de Rihana, "Take care","Hotline"</span> e muitos outros sucessos,
+    em 2015 Drake lançou mas sucessos como <span class="bold">hotlinebling</span>  e em 2017 estourou com <span class="bold">work, one dance, superstar</span>.
+    <blockquote>
+        "Vendeu inumeras cópias dos seu albúns, o seu albúm mais recente foi o Pragnement fair que Vendeu
+        mais de 5 milhões de cópias em apenas 7 países".
+    </blockquote>
+     </p>
+        </div>
+        <div class="curiosities-container">
+            <h2>Curiosidades sobre Drake:</h2>
+            <ul>
+              <li>Drake não queria ser cantor mas sim ator</li>
+              <li>Ele tem um filho chamado Adonis</li>
+              <li>Não é casado ou acompromissado de momento</li>
+              <li>Nasceu no Canadá em Toronto</li>  
+            </ul>
+        </div>
+        <!--Segunda sitação-->
+        <div class="quotes-container">
+            <blockquote>
+                "Hold me close in this <br>
+                Tryin in times suposte to be mine,babe<br>
+                i need some help just how anyone else <br>
+                hold me close in this<br>
+                tryin times open your eyes,babe <br>
+                you said you felt something for me "
+            </blockquote>
+            <p id="liv">Get long better</p>
+        </div>
+        <!--segunda imagem-->
+        <div class="img-bold">
+            <figure>
+                <img src="img/Drake-1.jpg" alt="drake in show">
+                <figcaption>Drake em preparação para o super bow</figcaption>
+            </figure>
+        </div>
+        <!--mais informacões-->
+        <div class="moreinfo-container">
+            <h2>Mais informações</h2>
+            <p>
+                Você pode obter mais informações sobre Drake 
+                <a href="https://pt.wikipedia.org/wiki/drake">Clicando aqui</a>
+            </p>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
